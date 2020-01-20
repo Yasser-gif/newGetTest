@@ -1,7 +1,7 @@
 import os
 import sys
 import time
-import random
+
 with open('wordbank.txt','r') as wb:
     word_b = [line.rstrip('\n') for line in wb]
 pr=open("PlayersRecords.txt","a+")
